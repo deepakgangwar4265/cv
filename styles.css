@@ -16,9 +16,12 @@ h1{
   font-family: 'Raleway', sans-serif;
 }
 
+h2{
+  font-family: 'Pacifico', cursive;
+}
+
 h3{
   color: #66BFBF;
-  font-family: 'Pacifico', cursive;
 }
 /*************************PSEUDO CLASS SELECTORS*************************/
 tr:hover{
