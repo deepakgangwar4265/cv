@@ -14,11 +14,13 @@ hr{
 
 h1{
   color: #40BFC1;
+  font-size: 36px;
   font-family: 'Raleway', sans-serif;
 }
 
 h2{
   color: #66BFBF;
+  font-size: 18px;
   font-family: 'Sacramento', cursive;
 }
 
