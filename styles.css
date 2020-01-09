@@ -1,12 +1,12 @@
 /* Font face declarations */
 @font-face {
   font-family: futura;
-  src: url(fonts/futurah.ttf);
+  src: url(futurah.ttf);
 }
 
 @font-face {
   font-family: futurapt;
-  src: url(fonts/futurapt.otf);
+  src: url(futurapt.otf);
 }
 
 
