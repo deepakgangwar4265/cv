@@ -1,34 +1,371 @@
-/*************************ELEMENT SELECTORS****************************/
-body{
-  background-color: #EAF6F6;
-  font-family: 'Montserrat', sans-serif;
+/* Font face declarations */
+@font-face {
+  font-family: futura;
+  src: url(fonts/futurah.ttf);
 }
 
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-width:4px;
-    border-color: gray;
-    height: 0;
+@font-face {
+  font-family: futurapt;
+  src: url(fonts/futurapt.otf);
+}
+
+
+.bg{
+  width: 1292.400px;
+  position: absolute;
+  left: -30px;
+  top: -5px;
+}
+
+.logo{
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  height: 30px;
+}
+
+.access{
+  position: absolute;
+  top: 35px;
+  right: 100px;
+  font-size: 20px;
+  font-family: futurapt;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 h1{
-  color: #40BFC1;
-  font-size: 36px;
-  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-family: futura;
+  font-size: 70px;
+  line-height: 1.0;
+  position: absolute;
+  left: 100px;
+  top: 120px;
+}
+
+
+.myButton {
+  box-shadow: 2px 2px 10px -4px #376850;
+	background-color:#6BDDA4;
+	border-radius: 8px;
+  position: absolute;
+  top: 400px;
+  left: 100px;
+	color: black;
+	font-family: futurapt;
+	font-size: 20px;
+	padding: 8px 21px;
+	text-decoration: none;
+}
+.myButton:hover {
+	background-color: #61D89D;
+}
+.myButton:active {
+	position: absolute;
+	top: 400px;
+}
+
+.btn {
+  box-shadow: 2px 2px 10px -4px #121A2B;
+	background-color:#1B253E;
+	border-radius:8px;
+  position: absolute;
+  top: 220px;
+	color: #FFFFFF;
+	font-family: futurapt;
+	font-size: 20px;
+	padding: 4px 15px;
+	text-decoration: none;
+}
+.btn:hover {
+	background-color: #293A5B;
+}
+.btn:active {
+	position: absolute;
+	top: 400px;
+}
+
+.btn2 {
+  box-shadow: 2px 2px 10px -4px #121A2B;
+	background-color:#1B253E;
+	border-radius:8px;
+  position: absolute;
+  top: 220px;
+  right: 8px;
+	color: #FFFFFF;
+	font-family: futurapt;
+	font-size: 20px;
+	padding: 4px 15px;
+	text-decoration: none;
+}
+.btn2:hover {
+	background-color: #293A5B;
+}
+.btn2:active {
+	position: absolute;
+	top: 400px;
+}
+
+.out {
+  border-radius: 27px;
+  font-size: 18px;
+  font-family: futurapt;
+  border-color: #1B253E;
+  background-color: #ffffff;
+  border: solid;
+  padding: 4px 20px;
+  text-decoration: none;
+}
+.out:hover{
+  background-color: #6BDDA4;
+  border-color: #6BDDA4;
+}
+.out:active{
+  background-color: #6BDDA4;
 }
 
 h2{
-  color: #66BFBF;
-  font-size: 36px;
-  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  font-family: futurapt;
+  color: #1B253E;
+}
+#feature{
+  position: absolute;
+  top: 720px;
+  left: 380px;
 }
 
 h3{
-  color: #66BFBF;
+  font-size: 22px;
+  font-family: futura;
+  color: #1B253E;
 }
-/*************************PSEUDO CLASS SELECTORS*************************/
-tr:hover{
-  background-color: #979797;
+
+h4{
+  font-size: 20px;
+  font-family: futura;
+  color: #6BDDA4;
 }
-/***************************ID SELECTORS*********************************/
+
+.body{
+  color: white;
+  font-family: futurapt;
+  font-size: 15px;
+  position: absolute;
+  left: 100px;
+  top: 320px;
+}
+
+#img1{
+  position: absolute;
+  top: 900px;
+  left: 20.88%;
+  height: 100px;
+}
+#img2{
+  position: absolute;
+  top: 900px;
+  left: 45.81%;
+  height: 100px;
+}
+
+#img3{
+  position: absolute;
+  top: 900px;
+  left: 70.88%;
+  height: 100px;
+}
+
+#look{
+  height: 200px;
+  width: 500px;
+  font-family: futurapt;
+  position: absolute;
+  top: 1250px;
+  left: 100px;
+}
+
+#safe{
+  height: 260px;
+  width: 500px;
+  text-align: right;
+  font-family: futurapt;
+  position: absolute;
+  top: 1660px;
+  right: 100px;
+}
+
+#pricing{
+  position: absolute;
+  top: 2050px;
+  left: 482px;
+  color: #1B253E;
+}
+.spam{
+  font-family: futurapt;
+  position: absolute;
+  top: 990px;
+  left: 15.6%;
+  text-align: center;
+  height: 200px;
+  width: 250px;
+}
+
+.phishing{
+  font-family: futurapt;
+  position: absolute;
+  top: 990px;
+  left: 40.3%;
+  text-align: center;
+  height: 200px;
+  width: 250px;
+}
+
+.scan{
+  position: absolute;
+  font-family: futurapt;
+  top: 990px;
+  left: 65.5%;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+}
+
+.green{
+  position: absolute;
+  top: 1300px;
+  left: -5px;
+  width: 100%;
+  z-index: -1;
+}
+
+.tab{
+  position: absolute;
+  top: 1300px;
+  right: 100px;
+  height: 190px;
+}
+/* ********************************************* */
+.startup{
+  font-family: futurapt;
+  position: absolute;
+  top: 2200px;
+  left: 15.6%;
+  text-align: center;
+  border-radius: 8px;
+  height: 350px;
+  width: 250px;
+}
+.startup:hover{
+  background-color: #1B253E;
+  box-shadow: 2px 2px 10px -4px #121A2B;
+}
+
+.premium{
+  font-family: futurapt;
+  border-radius: 8px;
+  position: absolute;
+  top: 2200px;
+  left: 40.3%;
+  text-align: center;
+  height: 350px;
+  width: 250px;
+}
+.premium:hover{
+  background-color: #1B253E;
+  color: #ffffff;
+  box-shadow: 2px 2px 10px -4px #121A2B;
+}
+
+.pro{
+  font-family: futurapt;
+  border-radius: 8px;
+  position: absolute;
+  top: 2200px;
+  left: 65.5%;
+  text-align: center;
+  height: 350px;
+  width: 250px;
+  z-index: -1
+}
+.pro:hover{
+  background-color: #1B253E;
+  color: #ffffff;
+  box-shadow: 2px 2px 10px -4px #121A2B;
+  z-index: -1
+}
+
+.price{
+  font-size: 18px;
+  font-family: futurapt;
+  color: #6BDDA4;
+  margin: 5px 0;
+}
+.price2{
+  font-size: 18px;
+  font-family: futurapt;
+  color: #6BDDA4;
+  margin: 5px 0;
+  margin-bottom: 30px;
+}
+/* 6BDDA4 */
+.rate{
+  font-size: 50px;
+  font-family: futura;
+  color: #6BDDA4;
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+a.out {
+  color: #1B253E;
+}
+a.out:visited {
+  color: #1B253E;
+}
+a.out:hover, a.out:active, a.out:focus {
+  color:#1B253E;
+}
+
+/* ******************************************************************* */
+/* .work{
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 2600px;
+  left: -5px;
+  height: 100px;
+  width: 1268.00px;
+}
+
+.icon{
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 30px;
+  margin: 0 100px;
+  display: inline-block;
+  } */
+
+.footer{
+  position: absolute;
+  top: 2800px;
+  left: -2px;
+  width: 100%;
+  height: 200px;
+  background-color: #1b253e;
+}
+
+.icon2{
+  height: 30px;
+  width: 30px;
+  margin-top: 130px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+#fb{
+  margin-left: 550px;
+}
+
